@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flash_chat/constants.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import '../constants.dart';
+
 
 final _firestore = FirebaseFirestore.instance;
 late User loggedInUser; // Use 'late' instead of nullable '?'
